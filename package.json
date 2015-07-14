@@ -1,0 +1,21 @@
+{
+  "name": "mini_planet",
+  "version": "0.0.1",
+  "description": "A simple node server to serve up a static file.",
+  "homepage": "water.jkeeler.me/space",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Jeremy Keeler",
+    "email": "jj.of.keeler@gmail.com",
+    "url": "http://water.jkeeler.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jer-keel/js-planet.git"
+  },
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "devDependencies": {}
+}
