@@ -4,7 +4,7 @@ var express = require('express');
     http    = require('http');
     path    = require('path');
 
-var defaultPort = 80;
+var defaultPort = 5060;
 
 // Express configuration
 app.use(express.static(path.resolve('public')));
@@ -13,7 +13,7 @@ app.use(express.static(path.resolve('public')));
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-  res.sendFile(path.resolve('./public/index.html'));
+  res.sendFile(path.resolve(__dirname, 'public/index.html'));
 });
 
 app.use('/', router);
